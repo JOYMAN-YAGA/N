@@ -1,12 +1,12 @@
 class script(object):
     START_TXT = """<b><blockquote>
-Mʏ Nᴀᴍᴇ Is #Minato, I Cᴀɴ Pʀᴏᴠɪᴅᴇ <a href='https://t.me/The_Happy_Hour_Hindi'>Mᴏᴠɪᴇs</a>, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ <a href='https://t.me/ThappyHour'>Yᴏᴜʀ Gʀᴏᴜᴘ</a> Aɴᴅ Eɴᴊᴏʏ.</blockquote></b>"""
+Mʏ Nᴀᴍᴇ Is #Minato, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Sᴇʀɪᴇs Aɴɪᴍᴇ.</blockquote></b>"""
 
     HELP_TXT = """<b><blockquote>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b></blockquote>"""
 
-    ABOUT_TXT = """<b><blockquote>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Master_Jiraya_Bot'>Master Jiraya</a>
+    ABOUT_TXT = """<b><blockquote>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/THHREQBOT'>Minato</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://t.me/ThappyHour'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
 ✯ DᴀᴛᴀBᴀsᴇ: MᴏɴɢᴏDB
