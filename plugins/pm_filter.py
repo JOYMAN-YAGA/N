@@ -1981,8 +1981,8 @@ async def auto_filter(client, msg, spoll=False):
             return
         if len(message.text) < 100:
             search = message.text
-            # m=await message.reply_sticker(sticker="CAACAgIAAxkBAAEX9rZlrzK7LG96b1yVJhnhA0RGfT8L9gACnFwBAAFji0YM2veI_Lsd8FIeBA",
-            # reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🍁 ꜱʜᴀʀᴇ ʙᴏᴛ 🍁', url='https://t.me/share/url?url=%F0%9F%91%89%20%C9%AA%EA%9C%B0%20%CA%8F%E1%B4%8F%E1%B4%9C%20%C9%B4%E1%B4%87%E1%B4%87%E1%B4%85%20%E1%B4%80%C9%B4%CA%8F%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%2C%20%EA%9C%B1%E1%B4%87%CA%80%C9%AA%E1%B4%87%EA%9C%B1%20%26%20%0A%E1%B4%80%C9%B4%C9%AA%E1%B4%8D%E1%B4%87%20-%20%E1%B4%8A%E1%B4%9C%EA%9C%B1%E1%B4%9B%20%E1%B4%9B%CA%8F%E1%B4%98%E1%B4%87%20%C9%B4%E1%B4%80%E1%B4%8D%E1%B4%87%20%26%20%C9%A2%E1%B4%87%E1%B4%9B%20%C9%AA%C9%B4%203%20%EA%9C%B1%E1%B4%87%E1%B4%84%E1%B4%8F%C9%B4%E1%B4%85%20%E2%9C%85%0A%0A%E1%B4%8A%E1%B4%8F%C9%AA%C9%B4%20%E1%B4%8F%E1%B4%9C%CA%80%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%20%CA%80%E1%B4%87%C7%AB%E1%B4%9C%E1%B4%87%EA%9C%B1%E1%B4%9B%20%C9%A2%CA%80%E1%B4%8F%E1%B4%9C%E1%B4%98%20%E2%9C%85%0A%F0%9F%91%89%20%40ThappyHour%20%0A%F0%9F%91%89%20%40ThappyHour%0A%0A%E1%B4%8A%E1%B4%8F%C9%AA%C9%B4%20%EA%9C%B0%E1%B4%8F%CA%80%20%C9%B4%E1%B4%87%E1%B4%A1%20%CA%80%E1%B4%87%CA%9F%E1%B4%87%E1%B4%80%EA%9C%B1%E1%B4%87%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%20%E2%9C%85%0A%F0%9F%91%89%20%40The_Happy_Hour_Hindi%0A%F0%9F%91%89%20%40The_Happy_Hour_Hindi%0A%0A%F0%9F%91%89%20%E1%B4%9B%CA%9C%E1%B4%87%20%CA%9C%E1%B4%80%E1%B4%98%E1%B4%98%CA%8F%20%CA%9C%E1%B4%8F%E1%B4%9C%CA%80%E2%84%A2%20%E2%9C%85')]]))
+            m=await message.reply_sticker(sticker="CAACAgIAAxkBAAE2ZJJmnIv1W208UyqjX6vSW-vu8mfmpwACjhUAAiVNwUmPFk1-69E28x4E",
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🍁 ꜱʜᴀʀᴇ ʙᴏᴛ 🍁', url='https://t.me/share/url?url=%F0%9F%91%89%20%C9%AA%EA%9C%B0%20%CA%8F%E1%B4%8F%E1%B4%9C%20%C9%B4%E1%B4%87%E1%B4%87%E1%B4%85%20%E1%B4%80%C9%B4%CA%8F%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%2C%20%EA%9C%B1%E1%B4%87%CA%80%C9%AA%E1%B4%87%EA%9C%B1%20%26%20%0A%E1%B4%80%C9%B4%C9%AA%E1%B4%8D%E1%B4%87%20-%20%E1%B4%8A%E1%B4%9C%EA%9C%B1%E1%B4%9B%20%E1%B4%9B%CA%8F%E1%B4%98%E1%B4%87%20%C9%B4%E1%B4%80%E1%B4%8D%E1%B4%87%20%26%20%C9%A2%E1%B4%87%E1%B4%9B%20%C9%AA%C9%B4%203%20%EA%9C%B1%E1%B4%87%E1%B4%84%E1%B4%8F%C9%B4%E1%B4%85%20%E2%9C%85%0A%0A%E1%B4%8A%E1%B4%8F%C9%AA%C9%B4%20%E1%B4%8F%E1%B4%9C%CA%80%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%20%CA%80%E1%B4%87%C7%AB%E1%B4%9C%E1%B4%87%EA%9C%B1%E1%B4%9B%20%C9%A2%CA%80%E1%B4%8F%E1%B4%9C%E1%B4%98%20%E2%9C%85%0A%F0%9F%91%89%20%40ThappyHour%20%0A%F0%9F%91%89%20%40ThappyHour%0A%0A%E1%B4%8A%E1%B4%8F%C9%AA%C9%B4%20%EA%9C%B0%E1%B4%8F%CA%80%20%C9%B4%E1%B4%87%E1%B4%A1%20%CA%80%E1%B4%87%CA%9F%E1%B4%87%E1%B4%80%EA%9C%B1%E1%B4%87%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%20%E2%9C%85%0A%F0%9F%91%89%20%40The_Happy_Hour_Hindi%0A%F0%9F%91%89%20%40The_Happy_Hour_Hindi%0A%0A%F0%9F%91%89%20%E1%B4%9B%CA%9C%E1%B4%87%20%CA%9C%E1%B4%80%E1%B4%98%E1%B4%98%CA%8F%20%CA%9C%E1%B4%8F%E1%B4%9C%CA%80%E2%84%A2%20%E2%9C%85')]]))
             search = search.lower()
             find = search.split(" ")
             search = ""
@@ -1998,7 +1998,7 @@ async def auto_filter(client, msg, spoll=False):
             search = search.replace(":","")
             files, offset, total_results = await get_search_results(message.chat.id ,search.lower(), offset=0, filter=True)
             if not files:
-                # await m.delete()
+                await m.delete()
                 if settings["spell_check"]:
                     return await advantage_spell_chok(client, msg)
                 else:
@@ -2010,8 +2010,8 @@ async def auto_filter(client, msg, spoll=False):
     else:
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
-        # m=await message.reply_sticker(sticker="CAACAgIAAxkBAAEX9rZlrzK7LG96b1yVJhnhA0RGfT8L9gACnFwBAAFji0YM2veI_Lsd8FIeBA",
-        # reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🍁 ꜱᴇʟᴇᴄᴛ ᴄʜᴀᴛ & ꜱʜᴀʀᴇ ʙᴏᴛ 🍁', url='https://t.me/share/url?url=%F0%9F%91%89%20%C9%AA%EA%9C%B0%20%CA%8F%E1%B4%8F%E1%B4%9C%20%C9%B4%E1%B4%87%E1%B4%87%E1%B4%85%20%E1%B4%80%C9%B4%CA%8F%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%2C%20%EA%9C%B1%E1%B4%87%CA%80%C9%AA%E1%B4%87%EA%9C%B1%20%26%20%0A%E1%B4%80%C9%B4%C9%AA%E1%B4%8D%E1%B4%87%20-%20%E1%B4%8A%E1%B4%9C%EA%9C%B1%E1%B4%9B%20%E1%B4%9B%CA%8F%E1%B4%98%E1%B4%87%20%C9%B4%E1%B4%80%E1%B4%8D%E1%B4%87%20%26%20%C9%A2%E1%B4%87%E1%B4%9B%20%C9%AA%C9%B4%203%20%EA%9C%B1%E1%B4%87%E1%B4%84%E1%B4%8F%C9%B4%E1%B4%85%20%E2%9C%85%0A%0A%E1%B4%8A%E1%B4%8F%C9%AA%C9%B4%20%E1%B4%8F%E1%B4%9C%CA%80%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%20%CA%80%E1%B4%87%C7%AB%E1%B4%9C%E1%B4%87%EA%9C%B1%E1%B4%9B%20%C9%A2%CA%80%E1%B4%8F%E1%B4%9C%E1%B4%98%20%E2%9C%85%0A%F0%9F%91%89%20%40ThappyHour%20%0A%F0%9F%91%89%20%40ThappyHour%0A%0A%E1%B4%8A%E1%B4%8F%C9%AA%C9%B4%20%EA%9C%B0%E1%B4%8F%CA%80%20%C9%B4%E1%B4%87%E1%B4%A1%20%CA%80%E1%B4%87%CA%9F%E1%B4%87%E1%B4%80%EA%9C%B1%E1%B4%87%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%20%E2%9C%85%0A%F0%9F%91%89%20%40The_Happy_Hour_Hindi%0A%F0%9F%91%89%20%40The_Happy_Hour_Hindi%0A%0A%F0%9F%91%89%20%E1%B4%9B%CA%9C%E1%B4%87%20%CA%9C%E1%B4%80%E1%B4%98%E1%B4%98%CA%8F%20%CA%9C%E1%B4%8F%E1%B4%9C%CA%80%E2%84%A2%20%E2%9C%85')]]))
+        m=await message.reply_sticker(sticker="CAACAgIAAxkBAAE2ZJJmnIv1W208UyqjX6vSW-vu8mfmpwACjhUAAiVNwUmPFk1-69E28x4E",
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🍁 ꜱʜᴀʀᴇ ʙᴏᴛ 🍁', url='https://t.me/share/url?url=%F0%9F%91%89%20%C9%AA%EA%9C%B0%20%CA%8F%E1%B4%8F%E1%B4%9C%20%C9%B4%E1%B4%87%E1%B4%87%E1%B4%85%20%E1%B4%80%C9%B4%CA%8F%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%2C%20%EA%9C%B1%E1%B4%87%CA%80%C9%AA%E1%B4%87%EA%9C%B1%20%26%20%0A%E1%B4%80%C9%B4%C9%AA%E1%B4%8D%E1%B4%87%20-%20%E1%B4%8A%E1%B4%9C%EA%9C%B1%E1%B4%9B%20%E1%B4%9B%CA%8F%E1%B4%98%E1%B4%87%20%C9%B4%E1%B4%80%E1%B4%8D%E1%B4%87%20%26%20%C9%A2%E1%B4%87%E1%B4%9B%20%C9%AA%C9%B4%203%20%EA%9C%B1%E1%B4%87%E1%B4%84%E1%B4%8F%C9%B4%E1%B4%85%20%E2%9C%85%0A%0A%E1%B4%8A%E1%B4%8F%C9%AA%C9%B4%20%E1%B4%8F%E1%B4%9C%CA%80%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%20%CA%80%E1%B4%87%C7%AB%E1%B4%9C%E1%B4%87%EA%9C%B1%E1%B4%9B%20%C9%A2%CA%80%E1%B4%8F%E1%B4%9C%E1%B4%98%20%E2%9C%85%0A%F0%9F%91%89%20%40ThappyHour%20%0A%F0%9F%91%89%20%40ThappyHour%0A%0A%E1%B4%8A%E1%B4%8F%C9%AA%C9%B4%20%EA%9C%B0%E1%B4%8F%CA%80%20%C9%B4%E1%B4%87%E1%B4%A1%20%CA%80%E1%B4%87%CA%9F%E1%B4%87%E1%B4%80%EA%9C%B1%E1%B4%87%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%20%E2%9C%85%0A%F0%9F%91%89%20%40The_Happy_Hour_Hindi%0A%F0%9F%91%89%20%40The_Happy_Hour_Hindi%0A%0A%F0%9F%91%89%20%E1%B4%9B%CA%9C%E1%B4%87%20%CA%9C%E1%B4%80%E1%B4%98%E1%B4%98%CA%8F%20%CA%9C%E1%B4%8F%E1%B4%9C%CA%80%E2%84%A2%20%E2%9C%85')]]))
         settings = await get_settings(message.chat.id)
     temp.SEND_ALL_TEMP[message.from_user.id] = files
     temp.KEYWORD[message.from_user.id] = search
@@ -2127,7 +2127,7 @@ async def auto_filter(client, msg, spoll=False):
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024] + files_link, reply_markup=InlineKeyboardMarkup(btn))
-            # await m.delete()
+            await m.delete()
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(150)
