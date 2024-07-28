@@ -64,7 +64,7 @@ async def stream_download(bot, query):
         await query.message.reply_text(
             text=f"ʏᴏᴜʀ ꜱᴛʀᴇᴇᴍ & ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ɪꜱ ɢᴇɴᴇʀᴀᴛᴇᴅ....✅",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('📚 ʜᴏᴡ ᴛᴏ ꜱᴛʀᴇᴇᴍ ᴏɴʟɪɴᴇ 📚', url='https://t.me/thewarriorsreal')]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('📚 ʜᴏᴡ ᴛᴏ ꜱᴛʀᴇᴇᴍ ᴏɴʟɪɴᴇ 📚', url='https://t.me/Movies_adda24_7')]])
         )
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(
@@ -73,7 +73,7 @@ async def stream_download(bot, query):
                     InlineKeyboardButton("📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=non_download),
                     InlineKeyboardButton("🖥️ ꜱᴛʀᴇᴇᴍ 🖥️", url=non_online)
                 ],[
-                    InlineKeyboardButton('🇮🇳 ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 🇮🇳', url='t.me/thewarriorsreal')
+                    InlineKeyboardButton('🇮🇳 ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 🇮🇳', url='https://t.me/Movies_adda24_7')
                 ]
             ]
         ))
@@ -91,7 +91,7 @@ async def stream_download(bot, query):
                         InlineKeyboardButton("📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=download),
                         InlineKeyboardButton("🖥️ ꜱᴛʀᴇᴇᴍ 🖥️", url=online)
                     ],[
-                        InlineKeyboardButton('🇮🇳 ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 🇮🇳', url='t.me/thewarriorsreal')
+                        InlineKeyboardButton('🇮🇳 ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 🇮🇳', url='https://t.me/Movies_adda24_7')
                     ]
                 ]
             ))
@@ -146,7 +146,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>Type & Get - t.me/thewarriorsreal</b>")
+    await message.reply_text("<b>Type & Get - https://t.me/Movies_adda24_7</b>")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
@@ -995,7 +995,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 [
                                 InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"stream#{file_id}")
                             ],[
-                    InlineKeyboardButton('🍁 ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 🍁', url='https://t.me/thewarriorsreal')
+                    InlineKeyboardButton('🍁 ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 🍁', url='https://t.me/Movies_adda24_7')
                     ]
                                 ]
                             )
@@ -1071,7 +1071,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  [
                   InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"stream#{file_id}")
                ],[
-                    InlineKeyboardButton('🇮🇳 ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 🇮🇳', url='t.me/thewarriorsreal')
+                    InlineKeyboardButton('🇮🇳 ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 🇮🇳', url='https://t.me/Movies_adda24_7')
                     ]
                 ]
             )
@@ -1544,7 +1544,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "plan1":
         buttons = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Master_Jiraya_Bot")
+            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Niranjan72")
         ],[
             InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='check')
@@ -1571,7 +1571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan2":
         buttons = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Master_Jiraya_Bot")
+            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Niranjan72")
         ],[
             InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='check')             
@@ -1598,7 +1598,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan3":
         buttons = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Master_Jiraya_Bot")
+            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Niranjan72")
         ],[
             InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='check')             
