@@ -53,7 +53,7 @@ PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 
 IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'goo.aslink.in')
 IMPORT_JK_API = environ.get('IMPORT_JK_API', '14bf470f6f53066505ba04762f2f91887a19c01a')
-SHORT_MODE = is_enabled((environ.get("SHORT_MODE","False")), False)
+SHORT_MODE = is_enabled((environ.get("SHORT_MODE","True")), False)
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
