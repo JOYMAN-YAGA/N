@@ -738,7 +738,7 @@ async def send_all(bot, userid, files, ident):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                            InlineKeyboardButton("🌿 Jᴏɪɴ Cʜᴀɴɴᴇʟ 🌿", url="https://t.me/The_Happy_Hours")
+                            InlineKeyboardButton("🌿 Jᴏɪɴ Cʜᴀɴɴᴇʟ 🌿", url="https://t.me/Movies_adda24_7")
                         ]
                         ]
                     )
@@ -758,7 +758,7 @@ async def send_all(bot, userid, files, ident):
             InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(bot, userid, f"https://telegram.me/{temp.U_NAME}?start=", 'send_all')),
             InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
         ],[
-            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/TheHappyHourBOT?start=TheHappyHour")
+            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/Flashadda_247_bot?start=Flashadda_247_bot")
           ]]
         await bot.send_message(
             chat_id=userid,
@@ -791,7 +791,7 @@ async def send_all(bot, userid, files, ident):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                        InlineKeyboardButton("🌿 Jᴏɪɴ Cʜᴀɴɴᴇʟ 🌿", url="https://t.me/The_Happy_Hours")
+                        InlineKeyboardButton("🌿 Jᴏɪɴ Cʜᴀɴɴᴇʟ 🌿", url="https://t.me/Movies_adda24_7")
                     ]
                     ]
                 )
