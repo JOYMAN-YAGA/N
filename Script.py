@@ -1,22 +1,22 @@
 class script(object):
-    START_TXT = """<b><blockquote>
-Mʏ Nᴀᴍᴇ Is 𝖠𝖽𝖽𝖺24/7, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Sᴇʀɪᴇs Aɴɪᴍᴇ.</blockquote></b>"""
+    START_TXT = """<b>
+Mʏ Nᴀᴍᴇ Is 𝖠𝖽𝖽𝖺24/7, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Sᴇʀɪᴇs Aɴɪᴍᴇ.</b>"""
 
-    HELP_TXT = """<b><blockquote>Hᴇʏ {}
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b></blockquote>"""
+    HELP_TXT = """<b>Hᴇʏ {}
+Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """<b><blockquote>
+    ABOUT_TXT = """<b>
 ✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Satoru_Ji'>𝖦𝗈𝗃𝗈</a>
 ✯ 𝖮𝗐𝗇𝖾𝗋: <a href='https://t.me/Niranjan72'>𝖭𝗂𝗋𝖺𝗇𝗃𝖺𝗇</a> 
-✯ Lɪʙʀᴀʀʏ: <a href='https://t.me/ThappyHour'>Pʏʀᴏɢʀᴀᴍ</a>
+✯ Lɪʙʀᴀʀʏ: <a href='https://t.me/Movies_adda24_7'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
 ✯ DᴀᴛᴀBᴀsᴇ: MᴏɴɢᴏDB
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: Vs Code Live Server
-✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: #Offline</blockquote></b>"""
+✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: #Offline</b>"""
 
     SOURCE_TXT = """<b><blockquote>ɴᴏᴛᴇ:
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
-- Repo link - <a href="https://graph.org/The-Happy-Hour-12-28">Click Here</a></blockquote></b>"""
+- Repo link - <a href="https://graph.org/The-Happy-Hour-12-28">Click Here</a></b>"""
 
 
     KUSHAL_TXT = """ 
@@ -211,7 +211,7 @@ Sᴇᴀʀᴄʜ Wᴇʙ Sᴇʀɪᴇs Iɴ ᴛʜɪs Fᴏʀᴍᴀᴛᴇ :
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><blockquote><a href="https://t.me/Movies_adda24_7">{file_name}</a></blockquote></b>"""
+    CAPTION = """<b><a href="https://t.me/Movies_adda24_7">{file_name}</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b><blockquote>
