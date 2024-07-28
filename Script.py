@@ -1,12 +1,13 @@
 class script(object):
     START_TXT = """<b><blockquote>
-Mʏ Nᴀᴍᴇ Is #Minato, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Sᴇʀɪᴇs Aɴɪᴍᴇ.</blockquote></b>"""
+Mʏ Nᴀᴍᴇ Is 𝖠𝖽𝖽𝖺24/7, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Sᴇʀɪᴇs Aɴɪᴍᴇ.</blockquote></b>"""
 
     HELP_TXT = """<b><blockquote>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b></blockquote>"""
 
     ABOUT_TXT = """<b><blockquote>
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/THHREQBOT'>Minato</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Satoru_Ji'>𝖦𝗈𝗃𝗈</a>
+✯ 𝖮𝗐𝗇𝖾𝗋: <a href='https://t.me/Niranjan72'>𝖭𝗂𝗋𝖺𝗇𝗃𝖺𝗇</a> 
 ✯ Lɪʙʀᴀʀʏ: <a href='https://t.me/ThappyHour'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
 ✯ DᴀᴛᴀBᴀsᴇ: MᴏɴɢᴏDB
@@ -59,7 +60,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/lusifilms)</code>
+<code>[Button Text](buttonurl:https://t.me/Movies_adda24_7)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -138,7 +139,7 @@ Nᴀᴍᴇ - {}"""
 ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏꜰ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, 
 ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴛʜᴇ ʀᴇQᴜᴇꜱᴛ ᴀɢᴀɪɴ."""
 
-    CUDNT_FND = """<blockquote>Select True Name...!!!</blockquote>"""
+    CUDNT_FND = """<blockquote>Select Correct Name...!!!</blockquote>"""
 
     I_CUDNT = """<b><blockquote>Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ :
 
@@ -169,8 +170,8 @@ Sᴇᴀʀᴄʜ Wᴇʙ Sᴇʀɪᴇs Iɴ ᴛʜɪs Fᴏʀᴍᴀᴛᴇ :
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Master Jiraya
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Master_Jiraya_Bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝖭𝗂𝗋𝖺𝗇𝗃𝖺𝗇 
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Niranjan72'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
@@ -210,7 +211,7 @@ Sᴇᴀʀᴄʜ Wᴇʙ Sᴇʀɪᴇs Iɴ ᴛʜɪs Fᴏʀᴍᴀᴛᴇ :
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><blockquote><a href="https://t.me/ThappyHour">{file_name}</a></blockquote></b>"""
+    CAPTION = """<b><blockquote><a href="https://t.me/Movies_adda24_7">{file_name}</a></blockquote></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b><blockquote>
