@@ -1491,7 +1491,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('👈 ʙᴀᴄᴋ 🥱', callback_data='close_data'), 
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/Premium-Plan-07-28"),
+            InlineKeyboardButton('☘️ 𝖲𝗍𝖺𝗍𝗎𝗌  ☘️', callback_data='about'),
             InlineKeyboardButton('cʟᴏꜱᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1544,9 +1544,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "plan1":
         buttons = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Niranjan72")
+            InlineKeyboardButton('🤗 𝖮𝗐𝗇𝖾𝗋 ❤️‍🩹', url="https://t.me/Niranjan72")
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/Premium-Plan-07-28"),
+            InlineKeyboardButton('☘️ 𝖲𝗍𝖺𝗍𝗎𝗌 ☘️', callback_data='about'),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='check')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1706,7 +1706,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "coct":
         buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='about')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1721,7 +1721,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='about'),
             InlineKeyboardButton('Aᴅᴍɪɴ', callback_data='admin')
         ]]
         await client.edit_message_media(
