@@ -1489,7 +1489,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "kushal":
         buttons = [[
-            InlineKeyboardButton('🎁 ᴄʜᴇᴄᴋ ᴘʟᴀɴs 🎁', callback_data='check'), 
+            InlineKeyboardButton('👈 ʙᴀᴄᴋ 🥱', callback_data='close_data'), 
         ],[
             InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/Premium-Plan-07-28"),
             InlineKeyboardButton('cʟᴏꜱᴇ', callback_data='close_data')
@@ -1571,9 +1571,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan2":
         buttons = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Niranjan72")
+            InlineKeyboardButton('🥱 𝖮𝗐𝗇𝖾𝗋 ❤️‍🩹', url="https://t.me/Niranjan72")
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/Premium-Plan-07-28"),
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='check'),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='check')             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1589,7 +1589,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/18154fad06450efdbc2a9.jpg")
+            InputMediaPhoto("https://telegra.ph/file/1ac9a0196e9e1227444eb.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN2_TXT,
@@ -1598,10 +1598,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan3":
         buttons = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Niranjan72")
+            InlineKeyboardButton('🥱 𝖮𝗐𝗇𝖾𝗋 ❤️‍🩹', url="https://t.me/Niranjan72")
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/Premium-Plan-07-28"),
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='check')             
+            InlineKeyboardButton('☘️ 𝖴𝗉𝖽𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 ☘️', url="https://t.me/Movies_adda24_7"),
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='close_data')             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
