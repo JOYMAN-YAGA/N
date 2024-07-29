@@ -273,26 +273,17 @@ async def start(client, message):
             
     if data.startswith("TheHappyHour"):
         btn = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Niranjan72")
+            InlineKeyboardButton('𝖮𝗐𝗇𝖾𝗋', url="https://t.me/Niranjan72")
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
+            InlineKeyboardButton('☘️ 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
             InlineKeyboardButton('cʟᴏꜱᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
         await message.reply_photo(
-        photo="https://telegra.ph/file/71be8b45fd8da04a6531c.jpg",
-        caption="""<blockquote><b>
-        <a href='https://graph.org/The-Happy-Hour-12-22-2'>💥 ᴘʀᴇᴍɪᴜᴍ ᴘʀɪᴄᴇ 💥
-        
-1 Wᴇᴇᴋ = [50 + 0] Rs
-1 Mᴏɴᴛʜ = [50 + 10] Rs
-2 Mᴏɴᴛʜ = [50 + 30] Rs
-3 Mᴏɴᴛʜ = [50 + 50] Rs
-6 Mᴏɴᴛʜ = [50 + 100] Rs
-1 Yᴇᴀʀ = [50 + 150] Rs
-
-⚡ᴄʜᴀᴄᴋ ᴘʀᴇᴍɪᴜᴍ ꜰᴜᴛᴜʀᴇꜱ⚡
-ㅤㅤㅤㅤㅤ</a></b></blockquote>""",
+        photo="https://telegra.ph/file/1ac9a0196e9e1227444eb.jpg",
+        caption="""<b>
+        <a href='https://telegra.ph/file/1ac9a0196e9e1227444eb.jpg'> 𝖶𝖾 𝖼𝖺𝗋𝖾 𝖺𝖻𝗈𝗎𝗍 𝗒𝗈𝗎 ❤️‍🩹        
+ㅤㅤㅤㅤㅤ</a></b>""",
             reply_markup=reply_markup
         )
         return
