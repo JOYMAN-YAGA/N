@@ -1,4 +1,4 @@
-pyrogram>=2.0.30
+pyrofork==2.3.43
 umongo
 tgcrypto
 pymongo[srv]==3.12.3
@@ -12,7 +12,6 @@ pytz
 aiohttp
 cinemagoer
 shortzy
-pyrofork
 PyLeaves==1.0.2
 cinemagoer
 shortzy
