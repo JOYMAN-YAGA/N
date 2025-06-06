@@ -15,13 +15,13 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24579842'))
 API_HASH = environ.get('API_HASH', 'ec6105bf1a02c98f837300546dc341d1')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7388432028:AAEKKqBZM8xdtFPwcDvT3nddAXi21Dxbl3Q")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7715698943:AAF0a-NqgiTufi-DWi6y6jJXYZvH3q4zM-U")
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 150))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/1ac9a0196e9e1227444eb.jpg')).split()
+PICS = (environ.get('PICS', 'https://files.catbox.moe/ox0bva.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/1ac9a0196e9e1227444eb.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/1ac9a0196e9e1227444eb.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/1ac9a0196e9e1227444eb.jpg")
@@ -38,17 +38,17 @@ auth_grp = environ.get('AUTH_GROUP', '-1001660893308')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID')
-reqst_channel = environ.get('REQST_CHANNEL', '-1002106576609')
+reqst_channel = environ.get('REQST_CHANNEL', '-1001728253082')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hhh20:hhh20@cluster0.b9rbm8x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sidharthwork143:3p3QGME2bqsLcztS@cluster0.ptxoazv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "flashadda")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'flashadda')
 
-premium = environ.get('PREMIUM_LOGS', '-1002106576609')
+premium = environ.get('PREMIUM_LOGS', '-1001728253082')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 
 IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'goo.aslink.in')
@@ -69,10 +69,10 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+6W9QAcQIWzU3YmQ1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movies_adda24_7')
-MSG_ALRT = environ.get('MSG_ALRT', 'The Happy Hour')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002106576609))
-LAZY_GROUP_LOGS = int(environ.get('LAZY_GROUP_LOGS', -1002106576609))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ThappyHour')
+MSG_ALRT = environ.get('MSG_ALRT', 'Flash Adda')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001728253082))
+LAZY_GROUP_LOGS = int(environ.get('LAZY_GROUP_LOGS', -1001728253082))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movies_adda24_7')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -91,7 +91,7 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 # Streaming
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002127267005")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1001728253082")
 if len(BIN_CHANNEL) == 0:
     logging.error('BIN_CHANNEL is missing, exiting now')
     exit()
