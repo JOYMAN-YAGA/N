@@ -6,7 +6,7 @@ Mʏ Nᴀᴍᴇ Is 𝖠𝖽𝖽𝖺24/7, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Satoru_Ji'>𝖦𝗈𝗃𝗈</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Sandmanbro'>Sandman</a>
 ✯ 𝖮𝗐𝗇𝖾𝗋: <a href='https://t.me/Niranjan72'>𝖭𝗂𝗋𝖺𝗇𝗃𝖺𝗇</a> 
 ✯ Lɪʙʀᴀʀʏ: <a href='https://t.me/Movies_adda24_7'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
@@ -16,7 +16,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     SOURCE_TXT = """<b><blockquote>ɴᴏᴛᴇ:
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
-- Repo link - <a href="https://graph.org/The-Happy-Hour-12-28">Click Here</a></b>"""
+- Repo link - <a href="https://telegra.ph/Movies-Adda-Premium-Plan-06-07">Click Here</a></b>"""
 
 
     KUSHAL_TXT = """ 
