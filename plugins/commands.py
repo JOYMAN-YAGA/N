@@ -22,15 +22,15 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('🎫 Buy Our Paid Service', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🎫 Buy Our Paid Service', url='https://telegra.ph/Movies-Adda-Premium-Plan-06-07')
                 ],[
                     InlineKeyboardButton('🚩 Updates', url=CHNL_LNK),
                     InlineKeyboardButton('🎗️ Support', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('⚠️ Disclaimer', callback_data='about'),
+                    InlineKeyboardButton('⚠️ Disclaimer', callback_data='disclaimer'),
                     InlineKeyboardButton('🫀 About', callback_data='about')
                   ],[
-                    InlineKeyboardButton('🍁 Owner 🍁', url='https://t.me/Movies_adda24_7')
+                    InlineKeyboardButton('🍁 Owner 🍁', url='https://t.me/Niranjan72')
                     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
