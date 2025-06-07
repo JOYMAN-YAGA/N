@@ -22,15 +22,15 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🎫 Buy Our Paid Service', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url=CHNL_LNK),
-                    InlineKeyboardButton('• Gʀᴏᴜᴘ •', url=GRP_LNK)
+                    InlineKeyboardButton('🚩 Updates', url=CHNL_LNK),
+                    InlineKeyboardButton('🎗️ Support', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('• Hᴇʟᴘ •', callback_data='about'),
-                    InlineKeyboardButton('• Aʙᴏᴜᴛ •', callback_data='about')
+                    InlineKeyboardButton('⚠️ Disclaimer', callback_data='about'),
+                    InlineKeyboardButton('🫀 About', callback_data='about')
                   ],[
-                    InlineKeyboardButton('🍁 ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 🍁', url='https://t.me/Movies_adda24_7')
+                    InlineKeyboardButton('🍁 Owner 🍁', url='https://t.me/Movies_adda24_7')
                     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
