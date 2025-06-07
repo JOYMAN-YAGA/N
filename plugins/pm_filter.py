@@ -1408,7 +1408,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🚩 Updates', url=CHNL_LNK),
                     InlineKeyboardButton('🎗️ Support', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('⚠️ Disclaimer', callback_data='disclaimer'),
+                    InlineKeyboardButton('⚠️ Disclaimer', url='https://telegra.ph/Disclaimer-06-07-22'),
                     InlineKeyboardButton('🫀 About', callback_data='about')
                   ],[
                     InlineKeyboardButton('🍁 Owner 🍁', url='https://t.me/Niranjan72')
