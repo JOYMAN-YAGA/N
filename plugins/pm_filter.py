@@ -1403,15 +1403,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🎫 Buy Our Paid Service', url='https://telegra.ph/Movies-Adda-Premium-Plan-06-07')
                 ],[
-                    InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url=CHNL_LNK),
-                    InlineKeyboardButton('• Gʀᴏᴜᴘ •', url=GRP_LNK)
+                    InlineKeyboardButton('🚩 Updates', url=CHNL_LNK),
+                    InlineKeyboardButton('🎗️ Support', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('• Hᴇʟᴘ •', callback_data='kushal'),
-                    InlineKeyboardButton('• Aʙᴏᴜᴛ •', callback_data='about')
+                    InlineKeyboardButton('⚠️ Disclaimer', callback_data='disclaimer'),
+                    InlineKeyboardButton('🫀 About', callback_data='about')
                   ],[
-                    InlineKeyboardButton('🍁 ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 🍁', url='https://t.me/Movies_adda24_7')
+                    InlineKeyboardButton('🍁 Owner 🍁', url='https://t.me/Niranjan72')
                     ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
